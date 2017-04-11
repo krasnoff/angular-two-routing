@@ -1,3 +1,8 @@
 <h1>
-  {{title}}
+  {{title}}<br>
+    <a [routerLink]="['/']">Home</a>
+    <a [routerLink]="['/page2']">About</a>
+    <div class="outer-outlet">
+      <router-outlet></router-outlet>
+    </div>
 </h1>
